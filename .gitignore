@@ -12,6 +12,9 @@
 # Pracovní složka pro vývoj a testování modelů
 work/
 
+# Podklady pro publikaci na Printables (fotky z mobilu)
+printables/
+
 # Cizí referenční soubory (licence neumožňuje redistribuci)
 ref/
 

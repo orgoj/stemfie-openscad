@@ -14,6 +14,10 @@ Repozitář je veřejný (GitHub). README je anglicky.
   * Import v modelech: `include <../lib/Stemfie_OpenSCAD/stemfie.scad>`
   * Neupravovat (ani konce řádků, soubory jsou CRLF).
 * **`work/`** (ignorováno): pracovní složka pro vývoj a testování modelů, exporty, slicer projekty.
+* **`printables/<model>/`** (ignorováno): podklady pro jednu publikaci na Printables (česky).
+  * `popis.md`: název, popis, štítky, licence, seznam souborů.
+  * `fotky/`: originály z mobilu (obsahují GPS v EXIF).
+  * `upload/`: kopie k nahrání bez EXIF: `convert IN -auto-orient -strip -resize '2400x2400>' -quality 88 OUT`.
 * **`ref/`** (ignorováno): cizí referenční soubory (STL ze stemfie.org, cizí `.scad` knihovny). Licence neumožňuje redistribuci, nikdy je necommitovat ani nekopírovat do `models/`.
 
 ---

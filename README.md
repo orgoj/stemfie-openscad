@@ -14,6 +14,10 @@ Parametric OpenSCAD models of extra parts for the open construction kit
 
 Ready-to-print exports are in `stl/`.
 
+## Printables
+
+- [STEMFIE connectors with filament-locked expandable pins](https://www.printables.com/model/1878358) (`stemfie-connector`)
+
 ## Usage
 
 ```bash
