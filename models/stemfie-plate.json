@@ -1,0 +1,30 @@
+{
+    "parameterSets": {
+        "B16h8-PLATE-05x03x0.25": {
+            "BSX": "5",
+            "BSY": "3",
+            "BSZ": "0.25",
+            "BU": "16",
+            "Hole": "4",
+            "SurfTess": "32"
+        },
+        "B12h6-PLATE-07x05x0.25": {
+            "BSX": "7",
+            "BSY": "5",
+            "BSZ": "0.25",
+            "BU": "12",
+            "Hole": "3",
+            "SurfTess": "32"
+        },
+        "SF-P-6x3x0.25": {
+            "BSX": "6",
+            "BSY": "3",
+            "BSZ": "0.25",
+            "BU": "12.5",
+            "ChamferHole": "2.45",
+            "Hole": "3.5",
+            "SurfTess": "32"
+        }
+    },
+    "fileFormatVersion": "1"
+}

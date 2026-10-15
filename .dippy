@@ -1,0 +1,5 @@
+allow openscad *
+allow which openscad
+
+allow-read /home/michael/.gemini/antigravity-ide/brain/**
+allow-edit /home/michael/.gemini/antigravity-ide/brain/**

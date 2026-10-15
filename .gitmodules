@@ -1,0 +1,3 @@
+[submodule "lib/Stemfie_OpenSCAD"]
+	path = lib/Stemfie_OpenSCAD
+	url = https://github.com/Cantareus/Stemfie_OpenSCAD.git

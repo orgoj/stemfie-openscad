@@ -1,0 +1,31 @@
+# 3D exporty a slicer artefakty
+*.stl
+*.3mf
+*.obj
+*.gcode
+*.step
+*.stp
+
+# Výjimka: vybrané publikované exporty
+!stl/**/*.stl
+
+# Pracovní složka pro vývoj a testování modelů
+work/
+
+# Cizí referenční soubory (licence neumožňuje redistribuci)
+ref/
+
+# Dočasné soubory a výstupy OpenSCAD
+tmp/
+*.csg
+*.png
+*.dxf
+*.svg
+
+# Systémové a editorské soubory
+.DS_Store
+*.swp
+*~
+.directory
+.idea/
+.vscode/
