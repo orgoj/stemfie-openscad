@@ -3,6 +3,14 @@
 Parametric OpenSCAD models of extra parts for the open construction kit
 [STEMFIE](https://stemfie.org).
 
+The goal is quick prototyping of electronics enclosures from existing STEMFIE
+parts: frames held together by press-fit pins locked with 1.75 mm filament,
+easy to take apart with a knife, plus inner mounts and panels for components.
+Work in progress.
+
+Tip: side holes of beams printed lying down are not perfectly round. Ream
+them with a 7 mm drill bit so the pins hold.
+
 ## Models
 
 | File | Description |

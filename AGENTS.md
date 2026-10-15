@@ -8,6 +8,16 @@ Projekt pro návrh a parametrické generování 3D modelů pro otevřenou staveb
 
 Repozitář je veřejný (GitHub). README je anglicky.
 
+## Cíl projektu
+
+Rychlé prototypování krabiček na elektroniku z existujících dílů Stemfie.
+
+* Rám drží pohromadě rychlospojky (piny zajištěné 1,75mm filamentem) z každé strany; rozebírá se nožem.
+* Další díly: vnitřní držáky a panely, např. držák konektoru XT-60, panely pro buck-boost měniče.
+* Vnitřní díly dodržují rastr `BU` a používají stejné piny jako spojky, aby šly připnout kamkoli do rámu.
+* Rozměry součástek (rozteč montážních děr, obrys, výška) nehádat, vyžádat od uživatele.
+* Boční díry nosníků (vodorovně k podložce při tisku) nejsou kulaté; uživatel je převrtává vrtákem Ø 7 mm. Díry kolmé k podložce se nevrtají.
+
 * **`models/`**: vlastní modely (`stemfie-*.scad`) a presety pro Customizer (`stemfie-*.json`).
 * **`stl/`**: vybrané publikované exporty (binární STL, licence CC BY-SA 4.0). Vybírá a kopíruje je uživatel.
 * **`lib/Stemfie_OpenSCAD/`**: git submodul knihovny `Cantareus/Stemfie_OpenSCAD`.
